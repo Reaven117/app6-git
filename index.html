@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Contaminacion Ambiental</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/tema6.min.css"/
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script>
+</script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/Batalla.jpg','imagenes/Desfile_4_de_mayo.jpg','imagenes/batalla-puebla-mexico.jpg','imagenes/Combate.jpg','imagenes/Monumento.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Batalla del 5 de Mayo</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>4 de Mayo </h1>
+<div>
+<h2><p>Representacion de la batalla del 4 de Mayo</p></h2>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/Combate.jpg',1)"><img src="imagenes/batalla-puebla-mexico.jpg" width="70%" height="60%" id="Image10"></a></div>
+<div>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>5 de Mayo</h1>
+<div>
+<h2><p>Imagen de representacion de la Batalla del 5 de Mayo</p></h2>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/Batalla.jpg',1)"><img src="imagenes/Batalla_de_Puebla,_Patricio_Ramos.jpg" width="67%" height="37%" id="Image8"></a></p>
+</div>
+</div>
+</div>
+
+
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>4 DE MAYO</h2>
+<p>¿Qué ocurrio el 4 de mayo?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5 DE MAYO</h2>
+<p>¿Qué ocurrio el 5 de mayo?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>INICIO DEL CONFLICTO</h2>
+<p>Causas del conflicto</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>MONUMENTOS DE LA BATALLA</h2>
+<p>Monumentos </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>HEROES DE LA BATALLA</h2>
+<p>Principales protagonistas en la batalla del 5 de mayo</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Seis</h4>
+<h4>Gustavo Jimenez Puente</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>4 DE MAYO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.</p>
+<p><img src="imagenes/benito.jpg" width="80%" height="60%"></p>
+
+<p>Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p></h2>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;" data-role="controlgroup" data-type="vertical" data-theme="a">
+<a href="http://bicentenario.gob.mx/index.php?option=com_content&id=923:04-de-mayo-de-1858-durante-la-guerra-de-reforma-el-presidente-juarez-establece-su-gobierno-en-el-puerto-de-veracruz&catid=118:mayo&Itemid=217" data-role="button">
+<h2>Más información acerca del 4 de Mayo</h2>
+</a>
+</div>
+</div>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/Desfile_4_de_mayo.jpg',1)"><img src="imagenes/Desfile.jpg" width="70%" height="50%" id="Image9"></a>
+<p><h5>Fotos del desfile realizado en Atlixco en conmemoracion al 4 de Mayo</h5></p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Seis, JPG</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>5 DE MAYO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p><img src="imagenes/Combate.jpg" width="60%" height="50%"></p>
+<h2><p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría.</p> </h2>
+  <p>&nbsp;</p>
+  <img src="imagenes/Batalla_de_Puebla,_Patricio_Ramos.jpg" width="70%" height="40%"></li>
+<h2><p> Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio, y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir,2​ los franceses se retiraron incondicionalmente del país en el año 1867.</p></h2>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.mexicodesconocido.com.mx/batalla-de-puebla.html" data-role="button">
+<h2>Para más información del 5 de Mayo</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<p><img src="imagenes/batalla_puebla_5_mayo.jpg" width="70%" height="40%"></li></p>
+</div>
+<div></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Seis, JPG</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>INICIO DEL CONFLICTO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla.jpg" alt="Batalla" title="Batalla" id="wows1_0"/></li>
+		<li><img src="data1/images/batalla_de_puebla,_patricio_ramos.jpg" alt="Batalla_de_Puebla,_Patricio_Ramos" title="Batalla_de_Puebla,_Patricio_Ramos" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla_puebla_5_mayo.jpg" alt="batalla_puebla_5_mayo" title="batalla_puebla_5_mayo" id="wows1_2"/></li>
+		<li><img src="data1/images/batallapueblamexico.jpg" alt="batalla-puebla-mexico" title="batalla-puebla-mexico" id="wows1_3"/></li>
+		<li><img src="data1/images/conflicto.jpg" alt="conflicto" title="conflicto" id="wows1_4"/></li>
+		<li><img src="data1/images/conflicto2.jpg" alt="conflicto2" title="conflicto2" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/general_francisco_villa.jpg" alt="wow slider" title="General Francisco Villa" id="wows1_6"/></a></li>
+		<li><img src="data1/images/monumentos.jpg" alt="Monumentos" title="Monumentos" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Batalla"><span><img src="data1/tooltips/batalla.jpg" alt="Batalla"/>1</span></a>
+		<a href="#" title="Batalla_de_Puebla,_Patricio_Ramos"><span><img src="data1/tooltips/batalla_de_puebla,_patricio_ramos.jpg" alt="Batalla_de_Puebla,_Patricio_Ramos"/>2</span></a>
+		<a href="#" title="batalla_puebla_5_mayo"><span><img src="data1/tooltips/batalla_puebla_5_mayo.jpg" alt="batalla_puebla_5_mayo"/>3</span></a>
+		<a href="#" title="batalla-puebla-mexico"><span><img src="data1/tooltips/batallapueblamexico.jpg" alt="batalla-puebla-mexico"/>4</span></a>
+		<a href="#" title="conflicto"><span><img src="data1/tooltips/conflicto.jpg" alt="conflicto"/>5</span></a>
+		<a href="#" title="conflicto2"><span><img src="data1/tooltips/conflicto2.jpg" alt="conflicto2"/>6</span></a>
+		<a href="#" title="General Francisco Villa"><span><img src="data1/tooltips/general_francisco_villa.jpg" alt="General Francisco Villa"/>7</span></a>
+		<a href="#" title="Monumentos"><span><img src="data1/tooltips/monumentos.jpg" alt="Monumentos"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+<div>
+<h2><p>En 1862, el país estaba en bancarrota debido a medio siglo de conflictos y guerras casi constantes. No podía hacer frente ni a las necesidades más urgentes, por lo que el 17 de julio de 1861, el presidente Benito Juárez decretó prórroga de dos años para pagar la deuda externa a países europeos. </p>
+<p><img src="imagenes/batalla-puebla-mexico.jpg" width="70%" height="60%"></p>
+<p> En octubre de 1861, Francia, Inglaterra y España se suscribieron a la Convención de Londres y se comprometieron a enviar militares a México para reclamar sus derechos como acreedores por una deuda que ascendía alrededor de 80 millones de pesos. Aproximadamente 69 millones eran para los ingleses, 9 millones para los españoles y 2 millones para Francia. Se negaron a negociar, por la vía diplomática, los términos y condiciones en los que se pagaría la deuda posteriormente.</p>
+<p><img src="imagenes/conflicto2.jpg" width="70%" height="40%"></p>
+
+<p>Así que Napoleón III, gobernante de Francia, decidió invadir México para establecer una monarquía favorable a Europa, surtirse de materias primas y en un futuro extender su imperialismo a Estados Unidos. Con ese fin, debía disolver el Gobierno mexicano establecido por el Presidente Benito Juárez.</p>
+<p></p>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://culturacolectiva.com/historia/cinco-de-mayo-la-batalla-de-puebla/" data-role="button">
+<h2>Para más información del inicio del conflicto</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<p><img src="imagenes/conflicto.jpg" width="60%" height="40%"></p>
+</h2>
+</div>
+<div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Seis, JPG</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>MONUMENTOS A LA BATALLA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><p>En la Zona Histórica de los Fuertes hay varias atracciones que vale la pena visitar, la verdad es que para visitar todas si necesitas un día entero, o hasta más. Y es que este lugar cuenta con un valor histórico, patriótico y cultural de gran importancia.</p> 
+<p><img src="imagenes/General Francisco Villa.jpg" width="80%" height="60%"></p>
+
+<p>Justo antes de llegar a los Fuertes, uno pasa por este monumento, y muchas veces pasa casi desapercibido, pero no debe ser así ya que es de gran importancia. El Monumento a la Victoria (5 de mayo) fue hecha por el escultor y pintor mexicano Ernesto Tamariz.</p> 
+<p><img src="imagenes/Monumentos.jpg" width="80%" height="60%"></p>
+
+<p>Recibe su nombre debido a que aquí el ejercito mexicano libró una poderosa batalla contra el ejercito francés, durante la Segunda Intervención Francesa el 5 de mayo de 1862. Dicha batalla fue liderada por el General Ignacio Zaragoza, que estaba a cargo del Ejercito de Oriente. La batalla fue ganada por el ejercito mexicano, lo que llenó de orgullo al país, y sobre todo a la gente de Puebla.</p>
+
+<p>Durante la Segunda Intervención Francesa en Puebla, Ignacio Zaragoza visitó a las tropas en la borrasca de las cumbres de Acultzingo. En ese momento ya había reportes de tifo o tifus –no confundir con tifoidea– entre algunos de los soldados. Desgraciadamente, fue aquí que el general se contagió de lo que le quitaría la vida lejos del campo de batalla.
+Después de entregar el mando del Ejército de Oriente al general Jesús González Ortega el 3 de septiembre de 1862, sus síntomas empeoraron. Cinco días después, el general falleció a sus 33 años de edad, lejos del campo de batalla. En su honor, Benito Juárez develó el 4 de mayo de 1868 un monumento póstumo en Panteón de San Fernando.</p>
+<p><img src="imagenes/Monumetono-a-zaragoza.jpg" width="60%" height="60%"></p>
+</h2>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://pueblados22.mx/emblematico-monumento-a-ignacio-zaragoza/" data-role="button">
+<h2>Para más información de los monumentos</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/Monumento.jpg',1)"><img src="imagenes/Monumentos.jpg" width="70%" height="60%" id="Image11"></a></p>
+</h2>
+</div>
+<div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Seis, JPG</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>HEROES DE LA BATALLA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p><h2>Principales protagonistas de la batalla del 5 de Mayo</h2></p>
+<ul>
+ <li><h2>Ignacio Zaragoza Seguin</h2></li>
+ <p><img src="imagenes/Ignacio Zaragoza.jpg" width="60%" height="60%"></p> 
+ 
+ <li><h2>Porfirio Díaz</h2></li>
+ <p><img src="imagenes/Porfirio Diaz.jpg" width="70%" height="30%"></p>
+ 
+ <li><h2>Miguel Negrete</h2></li>
+ <p><img src="imagenes/migue.jpg" width="60%" height="60%"></p>
+ 
+ <li><h2>Charles Ferdinand Latrille</h2></li>
+ <p><img src="imagenes/Charles.jpg" width="60%" height="70%"></p>
+ 
+ <li><h2>Conde de Lorencez</h2></li>
+ <p><img src="imagenes/conde.jpg" width="60%" height="60%"></p>
+</ul>
+</div>
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Seis, JPG</h4>
+</div>
+</div>
+
+</body>
+</html>
