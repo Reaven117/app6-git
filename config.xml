@@ -2,13 +2,13 @@
 
 <widget xmlns ="http://www.w3.org/ns/widgets"
 xmlns:gap ="http://phonegap.com/ns/1.0"
-id ="com.phonegap.app5"
+id ="com.phonegap.app6"
 version ="1.0.0">
 
-<name>app6 Advertencia del Dispositivo 2018</name>
+<name>app6 Batalla del 5 de Mayo</name>
 
 <description>
-Aplicacion que realiza la vibracion y beep del Dispositivo
+Aplicacion que muestra La batalla del 5 de Mayo
 </description>
 
 <author href="https://build.phonegap.com" email="alfaprime117@gmail.com">
